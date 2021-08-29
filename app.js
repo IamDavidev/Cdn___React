@@ -29,12 +29,28 @@
 // ReactDOM.render(<Legacy title={"Legacy New Version"} />, $app);
 
 //==> Contador <==//
-const $root = document.querySelector(".root");
-const $RD = ReactDOM;
 
-$RD.render(
-  <di>
-    <h1> name user undefined whit react Hocks how vue </h1> 
-  </di>,
-  $root
-);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
