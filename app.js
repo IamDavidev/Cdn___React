@@ -1,6 +1,6 @@
-const $app = document.querySelector(".app");
-const R = React.createElement;
-const RC = React.Component;
+// const $app = document.querySelector(".app");
+// const R = React.createElement;
+// const RC = React.Component;
 //=> sin jsx
 // ReactDOM.render(R("h1", "class", "hola Mundo desde react "), $app);
 //=> con jsx
@@ -16,16 +16,25 @@ const RC = React.Component;
 //   }
 // }
 
-const Legacy = (props) => {
-  const nombre = "user UNDeFINED";
-  // const [state , getState] = React.useState
-  console.log(React.useState());
-  return (
-    <div class="root">
-      <h1>{props.title}</h1>
-      <h3>{nombre}</h3>
-    </div>
-  );
-};
+// const Legacy = (props) => {
+//   const [state, getState] = React.useState(0);
+//   return (
+//     <div class="root">
+//       <h1>{props.title}</h1>
+//       <h1>{state}</h1>
+//     </div>
+//   );
+// };
 
-ReactDOM.render(<Legacy title={"Legacy New Version"} />, $app);
+// ReactDOM.render(<Legacy title={"Legacy New Version"} />, $app);
+
+//==> Contador <==//
+const $root = document.querySelector(".root");
+const $RD = ReactDOM;
+
+$RD.render(
+  <di>
+    <h1> name user undefined whit react Hocks how vue </h1> 
+  </di>,
+  $root
+);
